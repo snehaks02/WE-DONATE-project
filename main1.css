@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+html, body, div, input, li, span, ul, h2, p, h1 {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  font-size: inherit;
+  font-weight: inherit;
+  color: inherit;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+a:hover {
+  color: blue;
+}
+
+nav {
+  font-weight: bold;
+}
+nav .container {
+  display: flex;
+  background-color: red;
+  font-size: medium;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  color: white;
+  font-weight: bold;
+}
+nav .container .left {
+  display: flex;
+}
+nav .container .right {
+  display: flex;
+}
+nav .container li {
+  padding: 10px;
+}
+nav .container a:hover {
+  color: blue;
+}
+
+.ttitlebar {
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.ttitlebar .logo {
+  display: flex;
+  align-items: center;
+}
+.ttitlebar .logo img {
+  height: 100px;
+}
+.ttitlebar .logo .text div {
+  padding: 0 5px;
+  font-size: x-small;
+  font-weight: 300;
+}
+.ttitlebar .logo .text .name {
+  font-size: larger;
+  font-weight: bold;
+}
+.ttitlebar .logo .text .name span {
+  color: red;
+}
+.ttitlebar .title {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: larger;
+  font-weight: normal;
+}
+.ttitlebar .counter {
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  background-image: linear-gradient(to bottom left, red, white);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.ttitlebar .counter p {
+  color: white;
+  font-size: smaller;
+  font-weight: bold;
+}
+
+.form-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.form-container .form-form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: #F2E8E9;
+  border-radius: 10px;
+  align-items: start;
+}
+.form-container .form-form .genter input {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.form-container .form-form label {
+  padding: 0 10px;
+  margin: 0 10px;
+}
+.form-container .form-form input {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  width: 400px;
+}
+.form-container .form-form button {
+  width: 200px;
+  padding: 10px;
+  margin: 10px;
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.center button {
+  width: 200px;
+  height: 30px;
+  margin: 20px;
+  color: white;
+  background-color: red;
+  border-color: rgb(198, 15, 15);
+}/*# sourceMappingURL=main.css.map */
+
+
+
+
+.container{
+  padding: 10px 10%;
+ 
+}
+
+.row{
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+.about-col-1{
+  flex-basis: 15%;
+}
+.about-col-1 img{
+  padding-top: 3rem;
+  width: 220%;
+  height: 50vh;
+  border-radius: .5rem;
+  /* margin-left: 1rem; */
+}
+.about-col-2{
+  flex-basis: 60%;
+}
+.about-col-2 h2{
+padding-top: 1.3rem;
+position: relative;
+font-weight: bold;
+font-size: 2rem;
+color: red;
+}
+
+.about-col-2 p{
+padding-top: 1.8rem;
+position: relative;
+}
+
+
+
+.title h1{
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.types{
+  padding-left: 1rem;
+}
+.types h2{
+  color: red;
+  font-size: 2rem;
+  font-weight: bold;
+  padding-bottom: 1rem;
+}
+
+.types h3{
+  color: red;
+}
+.types a{
+  color: blue;
+}
